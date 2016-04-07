@@ -13,6 +13,11 @@ use Ben\DoctorsBundle\Pagination\Paginator;
 
 class AdminController extends Controller
 {
+
+    public function testAction()
+    {
+        
+    }
     /**
      * @Secure(roles="ROLE_ADMIN")
      */
